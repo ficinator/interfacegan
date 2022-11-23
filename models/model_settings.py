@@ -14,7 +14,7 @@ import os.path
 
 BASE_DIR = os.path.dirname(os.path.relpath(__file__))
 
-MODEL_DIR = BASE_DIR + '../../../models/interfacegan'
+MODEL_DIR = BASE_DIR + '/../../../models/interfacegan'
 
 MODEL_POOL = {
     'pggan_celebahq': {
