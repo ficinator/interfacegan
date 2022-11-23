@@ -14,7 +14,7 @@ import os.path
 
 BASE_DIR = os.path.dirname(os.path.relpath(__file__))
 
-MODEL_DIR = BASE_DIR + '/pretrain'
+MODEL_DIR = BASE_DIR + '../../../models/interfacegan'
 
 MODEL_POOL = {
     'pggan_celebahq': {
@@ -67,6 +67,6 @@ STYLEGAN_TRUNCATION_LAYERS = 8  # 0 means no truncation
 STYLEGAN_RANDOMIZE_NOISE = False
 
 # Settings for model running.
-USE_CUDA = True
+USE_CUDA = False
 
 MAX_IMAGES_ON_DEVICE = 4
